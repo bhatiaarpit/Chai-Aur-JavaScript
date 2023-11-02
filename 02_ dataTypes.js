@@ -7,9 +7,9 @@ console.log("Arpit")
 
 
 
-let age=18
-let isloggedIn = false
-let state = null
+// let age=18
+// let isloggedIn = false
+// let state = null
 
 //number => 2 to power 53
 //bigint
