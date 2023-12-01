@@ -24,3 +24,4 @@ let state = null
 console.log(typeof undefined); // o/p Undefined
 console.log(typeof null); // o/p null
 console.log(typeof age); // o/p number
+

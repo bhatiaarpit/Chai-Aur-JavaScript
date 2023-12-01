@@ -19,5 +19,5 @@ console.table([accountEmail, accountPassword, accountCity, accountId, accountSta
 
 
 /*
-use node to run the files on terminal
+use node to run the files on    terminal
 */ 
