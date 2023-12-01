@@ -15,4 +15,9 @@ accountEmail = "bhatia@gmail.com"
 accountPassword = "7r483"
 accountCity = "lucknow"
 
-console.table([accountEmail, accountPassword, accountCity,accountId]);
+console.table([accountEmail, accountPassword, accountCity, accountId, accountState]);
+
+
+/*
+use node to run the files on terminal
+*/ 
