@@ -1,12 +1,12 @@
   // Primitive
 
   // 7 Types : String, Number, boolean, null, undefined, Symbol, Bigint
-
+  //
   const score = 100
   const scorevalue = 100.3
 
   const isLoggedIn = false
-  const outsideTemp = null
+  const outsideTemp = null    //typeof = object
 
   let userEmail;
 
