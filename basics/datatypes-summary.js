@@ -31,3 +31,31 @@
   }
 
   console.log(typeof heros);
+
+
+
+  //******************************************************//
+
+  //Stack(Primitive) , Heap(Non-Primitive)
+  //When the stack memory is used we get the copy of the declared variable  
+
+  //we get the reference of the original value when the memory is declared in heap.
+
+  let myYoutubename = "techazuzu"
+
+  let anothername = myYoutubename
+  anothername = "arpitbhatia"
+  console.log(anothername);
+  console.log(myYoutubename);
+
+  let userOne = {
+    email: "arpit@google.com"
+  
+  }
+
+let userTwo = userOne
+
+userTwo.email = "user@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
