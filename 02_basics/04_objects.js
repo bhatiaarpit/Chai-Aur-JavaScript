@@ -60,6 +60,9 @@ users[1].email
 
 
 
+
+//destructuring
+
 const course ={
     coursename: "js in hindi",
     price: "999",
@@ -76,6 +79,7 @@ console.log(instructor);
 // }
 // navbar(company = "hitesh")
 
+//JSON Talk
 
 // {
 //     name: "arpit",
