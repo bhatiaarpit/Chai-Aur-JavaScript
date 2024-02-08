@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background-color: #2a2a2a;
+        }
+    
+        .card {
+          width: 300px;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          background-color: #fff;
+        }
+    
+        .card-header {
+          background-color: #3498db;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+        }
+    
+        .card-body {
+          padding: 20px;
+        }
+    
+        .card-body img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 4px;
+          margin-bottom: 10px;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <div class="card">
+        <div class="card-header">
+          Card Title
+        </div>
+        <div class="card-body">
+          <img src="" alt="Card Image">
+          <p>This is a simple card example with an image.</p>
+          <p>You can customize it further based on your needs.</p>
+        </div>
+      </div>
+<script>
+    const requestUrl = 'https://api.github.com/users/bhatiaarpit' 
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET', requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+        if (xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText)
+            console.log(data.avatar_url);
+        }
+    }
+    // console.log(xhr.readyState);
+    xhr.send()
+</script>
+</html>
